@@ -4,11 +4,11 @@ let idade = 17;
 const cursoFaculdade = "alguma coisa";
 let cidadeAtual = "SJP";
 
-console.log(`Ola eu sou o ${nomeCompleto} anos, moro em ${cidadeAtual}quero ano que vem estar cursando ${cursoFaculdade}`);
+console.log(`Ola eu sou o ${nomeCompleto} anos, moro em ${cidadeAtual} quero ano que vem estar cursando ${cursoFaculdade}`);
 
 anoAtual = 2025;
 idade = 18;
-cidadeAtual = "SJP";
+cidadeAtual = "Inazuma";
 depoisMarço = "exercito";
 lazer = "valorant e genshin"
 
