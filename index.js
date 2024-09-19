@@ -13,3 +13,23 @@ depoisMarço = "exercito";
 lazer = "valorant e genshin"
 
 console.log(`Bom ano que vem terei ${idade} e continuarei morando em ${cidadeAtual} e provavelmente estarei no ${depoisMarço} vou ganhar dinheiro, porém irei ter cada vez menos tempo para jogar ${lazer} com meus amigos`);
+
+
+//agencia de viagens
+
+const nomeComprador = "Noelle";
+const cpfComprador = 139456781123;
+const idadeComprador = 17;
+const listaDeDestinos = new Array("Fontaine",
+"Japão",
+"Canada",
+"Portugual",
+"Londres",
+);
+
+console.log(`Olá senhorita ${nomeComprador} Portadora do cpf ${cpfComprador}, a senhorita gostaria de confirmar sua passagem para: ${listaDeDestinos}? Poderia nos confirmar a sua idade? Aqui consta ${idadeComprador}.Com tudo pronto voce podera partir para sua viagem, tenha um otimo dia senhorita`);
+
+console.log(listaDeDestinos[0]);
+console.log(`Olá senhorita ${nomeComprador} conseguimos adicionar mais uma viagem ao seu pacote de interresses`);
+listaDeDestinos.push("Summer Island");
+console.log(listaDeDestinos);
