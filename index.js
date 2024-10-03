@@ -19,6 +19,26 @@ console.log(`Bom ano que vem terei ${idade} e continuarei morando em ${cidadeAtu
 
 
 //agencia de viagens
+console.log("-------------------------------------------------------------------------------------------------------------------");
+console.log("                                             LOGIN                                                                 ");
+console.log("-------------------------------------------------------------------------------------------------------------------");
+
+
+const loginCerto = "Enyfe";
+const senhaCerta = "******";
+
+var login = entrada("Digite seu login: ");
+var senha = entrada("Digite sua senha: ");
+
+while(login !=loginCerto){
+  console.log("usuario não encontrado!");
+  login = entrada("Digite novamente seu login: ");
+}
+while(senha !=senhaCerta){
+  console.log("senha incorreta!");
+  login = entrada("Digite novamente sua senha: ");
+}
+
 
 var nomeComprador = entrada("Qual é seu nome? ");
 var cpfComprador = entrada("Qual seria seu CPF? ");
@@ -33,7 +53,7 @@ const listaDeDestinos = new Array("Fontaine",
 console.log(`Olá senhorita ${nomeComprador} Portadora do cpf ${cpfComprador}, a senhorita gostaria de confirmar sua passagem para: ${listaDeDestinos}? Poderia nos confirmar a sua idade? Aqui consta ${idadeComprador}.Com tudo pronto voce podera partir para sua viagem, tenha um otimo dia senhorita`);
 
 console.log(listaDeDestinos[0]);
-console.log(`Olá senhorita ${nomeComprador} conseguimos adicionar mais uma viagem ao seu pacote de interresses`);
+console.log(`Olá senhorita/ senhor ${nomeComprador} conseguimos adicionar mais uma viagem ao seu pacote de interresses`);
 listaDeDestinos.push("Summer Island");
 
 if(idadeComprador<18){
